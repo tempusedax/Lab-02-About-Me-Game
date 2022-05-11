@@ -1,0 +1,33 @@
+body {
+  background-color: honeydew;
+}
+
+header {
+  font-size: 30px;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
+
+div {
+  position: absolute;
+  z-index: 10;
+}
+
+article {
+  background-color: rgb(249, 255, 215);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0rem 4rem;
+  padding: 20px 30px;
+  border-radius: 10px;
+  position:absolute;
+  top: 200px;
+}
+
+h3 {
+  text-decoration: aqua;
+  color:darksalmon;
+  font-size: 30px;
+}
