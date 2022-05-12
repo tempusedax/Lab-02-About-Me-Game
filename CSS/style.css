@@ -11,11 +11,6 @@ header {
   top: 160px;
 }
 
-div {
-  position: absolute;
-  z-index: 10;
-}
-
 article {
   background-color: rgb(249, 255, 215);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,4 +25,20 @@ h3 {
   text-decoration: aqua;
   color:darksalmon;
   font-size: 30px;
+}
+
+div {
+  position: relative;
+  top: 500px;
+  width: 40%;
+  background-color: rgb(219, 255, 202);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 30px;
+  margin: 0rem 1rem;
+  border-radius: 10px;
+}
+
+ol {
+  margin-top: 1rem;
+  font-size: large;
 }
